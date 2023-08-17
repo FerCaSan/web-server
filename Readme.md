@@ -14,7 +14,8 @@ pip3 install -r requirements.txt
 ```sh
 uvicorn main:app --reload
 ```
-, where 'main' is the file with the app and 'reload' is to keep listening it 
+, where 'main' is the file with the app and 'reload' is to keep listening it .
+
 2. To access localhost to show web
 
 ## With docker
