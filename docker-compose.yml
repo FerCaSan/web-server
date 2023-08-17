@@ -1,0 +1,14 @@
+services:
+  #Service alias
+  web-server:
+    #Build a service
+    build:
+      context: .
+      #File to find
+      dockerfile: Dockerfile
+    #Label to link files systems
+    volumes:
+      - .:/app
+    ports:
+      #Link my port 80 with the container port 80
+      - '80:80'
