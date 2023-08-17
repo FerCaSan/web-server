@@ -10,13 +10,13 @@ python3 -m venv env
 ```sh
 pip3 install -r requirements.txt
 ```
-2. Run web server:
+3. Run web server:
 ```sh
 uvicorn main:app --reload
 ```
 , where 'main' is the file with the app and 'reload' is to keep listening it .
 
-2. To access localhost to show web
+4. To access localhost to show web
 
 ## With docker
 
